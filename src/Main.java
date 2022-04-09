@@ -30,13 +30,15 @@ public class Main {
             System.out.print((i+1) + ". dizi elemanı  girin: ");
             list[i] = inp.nextInt();
         }
-        System.out.println("Dizi oluşturuldu : " +Arrays.toString(list));
-        System.out.println();
-        System.out.println("Program dizideki elemanların içinden girilen sayıya göre küçük en yakın ve en büyük en yakın sayıyı bulacak");
-        System.out.println();
+        System.out.println("Dizi oluşturuldu : " +Arrays.toString(list) +"\n");
+        System.out.println("Program dizideki elemanların içinden girilen sayıya göre küçük en yakın ve en büyük en yakın sayıyı bulacak\n");
         System.out.print("Kriter sayıyı giriniz : ");
         a = inp.nextInt();
         Arrays.sort(list);
         closestNumbers(list, a);
     }
 }
+
+
+//https://app.patika.dev/onurarslanturk
+//www.patika.dev
